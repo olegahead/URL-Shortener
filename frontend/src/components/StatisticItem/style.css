@@ -1,0 +1,19 @@
+.statistics-container>.item {
+    width: 31%;
+    box-sizing: border-box;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 0 10px 0 10px;
+}
+
+.statistics-container>.item:hover {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.statistics-container>.item>.count {
+    font-size: 90px;
+}
+
+.statistics-container>.item>.counter-description {
+    font-size: 17px;
+}

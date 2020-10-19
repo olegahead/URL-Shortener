@@ -1,0 +1,19 @@
+.sections-switcher {
+    display: flex;
+}
+
+.sections-switcher>.section-btn {
+    font-weight: bold;
+    flex-grow: 1;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.sections-switcher>.section-btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.sections-switcher>.section-btn.active {
+    background: rgba(255, 255, 255, 0.2);
+}
